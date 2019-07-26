@@ -29,6 +29,10 @@ if( contours != []):
             frame = cv2.circle(frame,(cx,cy),8,(0,0,255),-1)
             cx1=cx
             cy1=cy
+	    
+	    
+Each frame in the video is blurred using Gaussian blur to get a smooth image. The blurred image is then analysed to get the loaction of pointing target.
+The image is then masked and centroid of target is found. Then a line i drawn from current frame to the previous frame.
 
 
 
