@@ -6,7 +6,7 @@ This is a simple computer vision based project which tracks a target and uses th
 
 This project make use of a web cam to track the motion of the target.
 	    
-Each frame in the video is blurred using Gaussian blur to get a smooth image. The blurred image is then analysed to get the loaction of pointing target.
+Each frame in the video is blurred using Gaussian blur to get a smooth image. The blurred image is then analysed to get the location of the pointing target.
 The image is then masked and centroid of target is found. Then a line is drawn from current frame to the previous frame.
 
 
